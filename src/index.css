@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant pika (&:where(.pika, .pika *));
+@custom-variant limbo (&:where(.limbo, .limbo *));
+
+:root {
+  background-color: white;
+}
+
+body {
+  background-color: white;
+}
